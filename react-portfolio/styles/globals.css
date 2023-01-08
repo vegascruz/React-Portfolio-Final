@@ -104,6 +104,8 @@ a {
   text-decoration: none;
 }
 
-@font-face {
-  font-family: "Roboto";
+@font-face:{
+  fontFamily: "burtons";
+  src: url('../public/Burtons.otf')
 }
+
