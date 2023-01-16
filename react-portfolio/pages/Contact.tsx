@@ -25,10 +25,16 @@ export default function Contact() {
                 <li><a className="bg-gradient-to-r from-cyan-500 to-teal-500 text-white px-4 py-2 rounded-md ml-8" href="/">Home</a></li>
                 <li><a className="bg-gradient-to-r from-cyan-500 to-teal-500 text-white px-4 py-2 rounded-md ml-8" href="/About">About</a></li>
                 <li><a className="bg-gradient-to-r from-cyan-500 to-teal-500 text-white px-4 py-2 rounded-md ml-8" href="/Contact">Contact</a></li>
-                <li><a className="bg-gradient-to-r from-cyan-500 to-teal-500 text-white px-4 py-2 rounded-md ml-8" href="/Portfolio">Portfolio</a></li>
                 <li><a className="bg-gradient-to-r from-cyan-500 to-teal-500 text-white px-4 py-2 rounded-md ml-8" href="/Resume">Resume</a></li>
               </ul>
             </nav>
+            <div className='text-center p-10'>
+              <h1 className="text-6xl py-2 text-teal-600 font-medium dark:text-teal-400">Contact</h1>
+              <h2 className="text-2xl py-2 text-center">Name: Vegas Cruz</h2>
+              <h2 className="text-2xl py-2 text-center">Email: <a href="mailto:Vegascruz5@gmail.com">Vegascruz5@gmail.com</a></h2>
+              <h2 className="text-2xl py-2 text-center">Phone Number: (608)633-4602</h2>
+              <h2 className="text-2xl py-2 text-center">Mailing Address: 800a E Pearson St, Milwaukee, WI 53202</h2>
+            </div>
             </section>
         </main>
         </div>
