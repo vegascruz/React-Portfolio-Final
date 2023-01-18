@@ -29,7 +29,7 @@ export default function About() {
               </ul>
             </nav>
             <div className='text-center p-10'>
-              <h1 className="text-6xl py-2 text-teal-600 font-medium dark:text-teal-400">About Me!</h1>
+              <h1 className="text-6xl py-2 text-teal-600 font-medium dark:text-teal-400">About Me</h1>
               <h3 className="text-xl py-2">
                 Hi, my name is Vegas Cruz, and I am 24 years young. I am from Sparta, WI! If you don't know where that is, it's near La Crosse. Currently, 
               I live in Milwaukee with my beautiful girlfriend, Amanda Yenter. 
@@ -51,7 +51,7 @@ export default function About() {
               <h2 className="text-3xl py-2 text-teal-600 font-medium dark:text-teal-400">Personality</h2>
               <h3 className="text-xl py-2">
                 Let me tell you about my personality a bit. 
-                I have the work ethic of a horse, EXCEPT when it comes to doing dishes haha. I'm fun, and have a very bubbly personality. I'm kind and I treat people with respect... 
+                I have the work ethic of a horse, except when it comes to doing dishes. I'm fun, and have a very bubbly personality. I'm kind and I treat people with respect... 
                 my girlfriend says I'm too much of a people pleaser, 
                 but it's how I grew up.  
               </h3>

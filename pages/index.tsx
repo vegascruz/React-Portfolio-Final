@@ -7,7 +7,7 @@ import {
   AiFillYoutube
 } from "react-icons/ai"
 import Image from "next/image";
-import imageOfMe from '../public/img_of_me.jpg';
+import imageOfMe from '../public/professional_pic.png';
 import {useState} from "react";
 
 export default function Home() {
@@ -48,11 +48,11 @@ export default function Home() {
               <AiFillYoutube/>
             </div>
             <div className="relative mx-auto rounded-full">
-              <Image src={imageOfMe} alt="picture of me" className="relative mx-auto rounded-"/>
+              <Image src={imageOfMe} alt="picture of me" className="relative mx-auto h-full w-3/12 rounded-full"/>
             </div>
           </section>
           <section>
-            <div>
+            <div className='text-center'>
               <h3 className='text-3xl py-1'> Services I offer</h3>
               <p className='text-md py-2 leading-8 text-gray-600 dark:text-gray-300'>I am a FULL Stack developer from Michigan State University. I offer front end and back end web development.</p>
             </div>

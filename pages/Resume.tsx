@@ -31,6 +31,7 @@ export default function Resume() {
             <div className='text-center p-10'>
             <h1 className="text-6xl py-2 text-teal-600 font-medium dark:text-teal-400">Resume</h1>
     </div>
+    <div className="justify-center">
     <div>
     <p>
         <strong>Vegas R. Cruz</strong>
@@ -76,7 +77,7 @@ export default function Resume() {
     <p>
         <em>· </em>
         <em>
-            Great Communication skills as a server and senior employee at a
+            Clear and Affective Communication skills as a server and senior employee at a
             Ginny’s Cupboard
         </em>
     </p>
@@ -130,11 +131,13 @@ export default function Resume() {
             Determined and driven to succeed through my perseverance and hard
             work attitude.
         </em>
+        <br />
         <em></em>
     </p>
 </div>
 <div>
     <p>
+        <br />
         <em><strong><u>Education/Certifications</u></strong></em>
     </p>
     <p>
@@ -598,9 +601,10 @@ export default function Resume() {
 <p>
     <em><strong></strong></em>
 </p>
-            </section>
-        </main>
-        </div>
+</div>
+</section>
+</main>
+</div>
     </>
   )
 }
