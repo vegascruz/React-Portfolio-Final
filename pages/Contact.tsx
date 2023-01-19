@@ -1,5 +1,6 @@
 import React from "react";
 import Head from 'next/head';
+import Link from "next/link";
 import {BsFillMoonStarsFill} from 'react-icons/bs';
 import {useState} from "react";
 
@@ -22,10 +23,10 @@ export default function Contact() {
                 <li>
                   <BsFillMoonStarsFill onClick={() => setDarkMode(!darkMode)} className='cursor-pointer text-2xl'/>
                 </li>
-                <li><a className="bg-gradient-to-r from-cyan-500 to-teal-500 text-white px-4 py-2 rounded-md ml-8" href="/">Home</a></li>
-                <li><a className="bg-gradient-to-r from-cyan-500 to-teal-500 text-white px-4 py-2 rounded-md ml-8" href="/About">About</a></li>
-                <li><a className="bg-gradient-to-r from-cyan-500 to-teal-500 text-white px-4 py-2 rounded-md ml-8" href="/Contact">Contact</a></li>
-                <li><a className="bg-gradient-to-r from-cyan-500 to-teal-500 text-white px-4 py-2 rounded-md ml-8" href="/Resume">Resume</a></li>
+                <li><Link className="bg-gradient-to-r from-cyan-500 to-teal-500 text-white px-4 py-2 rounded-md ml-8" href="/">Home</Link></li>
+                <li><Link className="bg-gradient-to-r from-cyan-500 to-teal-500 text-white px-4 py-2 rounded-md ml-8" href="/About">About</Link></li>
+                <li><Link className="bg-gradient-to-r from-cyan-500 to-teal-500 text-white px-4 py-2 rounded-md ml-8" href="/Contact">Contact</Link></li>
+                <li><Link className="bg-gradient-to-r from-cyan-500 to-teal-500 text-white px-4 py-2 rounded-md ml-8" href="/Resume">Resume</Link></li>
               </ul>
             </nav>
             <div className='text-center p-10'>

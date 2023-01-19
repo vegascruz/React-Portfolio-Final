@@ -1,6 +1,6 @@
 import Head from 'next/head'
+import Link from 'next/link';
 import {BsFillMoonStarsFill} from 'react-icons/bs';
-import {BrowserRouter as Router, Route, Link} from "react-router-dom";
 import {
   AiFillTwitterCircle, 
   AiFillLinkedin, 
@@ -29,17 +29,17 @@ export default function Home() {
                 <li>
                   <BsFillMoonStarsFill onClick={() => setDarkMode(!darkMode)} className='cursor-pointer text-2xl'/>
                 </li>
-                  <li><a className="bg-gradient-to-r from-cyan-500 to-teal-500 text-white px-4 py-2 rounded-md ml-8" href="/">Home</a></li>
-                  <li><a className="bg-gradient-to-r from-cyan-500 to-teal-500 text-white px-4 py-2 rounded-md ml-8" href="/About">About</a></li>
-                  <li><a className="bg-gradient-to-r from-cyan-500 to-teal-500 text-white px-4 py-2 rounded-md ml-8" href="/Contact">Contact</a></li>
-                  <li><a className="bg-gradient-to-r from-cyan-500 to-teal-500 text-white px-4 py-2 rounded-md ml-8" href="/Resume">Resume</a></li>
+                  <li><Link className="bg-gradient-to-r from-cyan-500 to-teal-500 text-white px-4 py-2 rounded-md ml-8" href="/">Home</Link></li>
+                  <li><Link className="bg-gradient-to-r from-cyan-500 to-teal-500 text-white px-4 py-2 rounded-md ml-8" href="/About">About</Link></li>
+                  <li><Link className="bg-gradient-to-r from-cyan-500 to-teal-500 text-white px-4 py-2 rounded-md ml-8" href="/Contact">Contact</Link></li>
+                  <li><Link className="bg-gradient-to-r from-cyan-500 to-teal-500 text-white px-4 py-2 rounded-md ml-8" href="/Resume">Resume</Link></li>
               </ul>
             </nav>
             <div className='text-center p-10'>
               <h2 className="text-5xl py-2 text-teal-600 font-medium dark:text-teal-400">Vegas Cruz</h2>
               <h3 className="text-2xl py-2">Full Stack Developer from Michigan State University</h3>
               <p className="text-md py-5 leading-8 text-gray-800 dark:text-gray-300">
-                Just got my FULL Stack developer certificate from MSU. I also am a semester away from achieving my Associate's Degree in IT: Web & Software Development from Western Technical College.
+                Just got my FULL Stack developer certificate from MSU. I also am a semester away from achieving my Associate&apos;s Degree in IT: Web & Software Development from Western Technical College.
               </p>
             </div>
             <div className="text-5xl flex justify-center gap-16 py-3 text-gray-600 dark:text-gray-300">
