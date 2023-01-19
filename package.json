@@ -1,5 +1,5 @@
 {
-  "homepage": "http://vegascruz.github.io/React-Portfolio-final",
+  "homepage": "http://vegascruz.github.io/React-Portfolio-final/pages/index.tsx",
   "name": "react-portfolio",
   "version": "0.1.0",
   "private": true,
@@ -7,7 +7,7 @@
     "dev": "next dev",
     "start": "npm run dev",
     "predeploy": "npm run build",
-    "deploy": "gh-pages -d build",
+    "deploy": "gh-pages -d pages",
     "build": "next build",
     "lint": "next lint"
   },
