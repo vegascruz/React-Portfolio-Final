@@ -330,7 +330,7 @@ export default function Resume() {
     </em>
 </p>
 <p>
-    <em>Developed a 2D Game for our summer Game Development class</em>
+    <em> <strong>Developed a 2D Game for our summer Game Development class </strong></em>
 </p>
 <p>
     <em>· </em>
