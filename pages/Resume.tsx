@@ -108,11 +108,6 @@ export default function Resume() {
     </p>
     <p>
         <em>· </em>
-        <em>Multilingual in English, German, and Spanish </em>
-        <em></em>
-    </p>
-    <p>
-        <em>· </em>
         <em>
             Best subject is math and I’m well versed in Reading and
             Communication
@@ -304,11 +299,11 @@ export default function Resume() {
     <em>· </em>
     <em>
         My team and I added an “I-Spy” game feature that allowed for kids to
-        interact with an image to find items. Here is a link,
+        interact with an image to find items. Here is a link,&nbsp;
     </em>
-    <a href="https://games.funmuseum.org/games/">
+    <Link className="text-blue-600" href="https://games.funmuseum.org/games/">
         https://games.funmuseum.org/games/
-    </a>
+    </Link>
     <em></em>
 </p>
 <p>
