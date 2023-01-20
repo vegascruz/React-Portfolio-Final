@@ -1,5 +1,5 @@
 {
-  "homepage": "http://vegascruz.github.io/React-Portfolio-Final/pages/",
+  "homepage": "http://vegascruz.github.io/React-Portfolio-Final/",
   "main": "pages/index.tsx",
   "name": "react-portfolio",
   "version": "0.1.0",
