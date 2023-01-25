@@ -23,10 +23,10 @@ export default function About() {
                 <li>
                   <BsFillMoonStarsFill onClick={() => setDarkMode(!darkMode)} className='cursor-pointer text-2xl'/>
                 </li>
-                <li><Link className="bg-gradient-to-r from-cyan-500 to-teal-500 text-white px-4 py-2 rounded-md ml-8" href="/" as={ process.env.BACKEND_URL + '/'}>Home</Link></li>
-                <li><Link className="bg-gradient-to-r from-cyan-500 to-teal-500 text-white px-4 py-2 rounded-md ml-8" href="/About" as={ process.env.BACKEND_URL + '/About'}>About</Link></li>
-                <li><Link className="bg-gradient-to-r from-cyan-500 to-teal-500 text-white px-4 py-2 rounded-md ml-8" href="/Contact" as={ process.env.BACKEND_URL + '/Contact'}>Contact</Link></li>
-                <li><Link className="bg-gradient-to-r from-cyan-500 to-teal-500 text-white px-4 py-2 rounded-md ml-8" href="/Resume" as={ process.env.BACKEND_URL + '/Resume'}>Resume</Link></li>
+                <li><Link className="bg-gradient-to-r from-cyan-500 to-teal-500 text-white px-4 py-2 rounded-md ml-8" href="/">Home</Link></li>
+                <li><Link className="bg-gradient-to-r from-cyan-500 to-teal-500 text-white px-4 py-2 rounded-md ml-8" href="/About">About</Link></li>
+                <li><Link className="bg-gradient-to-r from-cyan-500 to-teal-500 text-white px-4 py-2 rounded-md ml-8" href="/Contact">Contact</Link></li>
+                <li><Link className="bg-gradient-to-r from-cyan-500 to-teal-500 text-white px-4 py-2 rounded-md ml-8" href="/Resume">Resume</Link></li>
               </ul>
             </nav>
             <div className='text-center p-10'>
